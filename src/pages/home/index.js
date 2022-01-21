@@ -1,5 +1,5 @@
 import React from 'react';
-import { SignInBtn } from '../../components';
+import "./style.css"
 import { Navbar } from '../../containers';
 
 function index() {
