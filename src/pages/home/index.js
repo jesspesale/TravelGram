@@ -1,9 +1,10 @@
 import React from 'react';
+import { SignInBtn } from '../../components';
 
 function index(props) {
     return (
         <div className="home">
-                  <p>Hello I am Jess</p>
+                  <SignInBtn/>
         </div>
     );
 }
