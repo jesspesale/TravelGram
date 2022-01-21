@@ -1,11 +1,13 @@
 import React from 'react';
 import "./style.css"
-import { Navbar } from '../../containers';
+import { CreatePost, Navbar } from '../../containers';
 
 function index() {
     return (
         <div className="home">
             <Navbar/>
+
+            <CreatePost/>
         </div>
     );
 }
