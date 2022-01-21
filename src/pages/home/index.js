@@ -1,10 +1,11 @@
 import React from 'react';
 import { SignInBtn } from '../../components';
+import { Navbar } from '../../containers';
 
-function index(props) {
+function index() {
     return (
         <div className="home">
-                  <SignInBtn/>
+            <Navbar/>
         </div>
     );
 }
